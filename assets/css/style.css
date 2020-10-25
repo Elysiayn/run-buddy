@@ -357,7 +357,21 @@ section {
     font-size:55px;
     color:#fce138;
 }
+/* Call to action style end */
 
+  /*  service plan grid start */
+  .service-grid-container {
+    display:grid;
+}
+
+.service-grid-item {
+    width:200px;
+    height:50px;
+    background-color:orange;
+    border:solid;
+    color:black;
+}
+/* service plan grid end */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
       /* this will be applied on any screen smaller than 980px */
@@ -468,3 +482,4 @@ section {
         order: 3;
       }
   } 
+
